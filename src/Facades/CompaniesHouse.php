@@ -1,6 +1,6 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Facades;
+namespace Global4Communications\LaravelCompaniesHouse\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
