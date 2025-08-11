@@ -20,22 +20,22 @@
     },
     "autoload": {
         "psr-4": {
-            "GhazanfarMir\\CompaniesHouse\\": "src/"
+            "Global4Communications\\LaravelCompaniesHouse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GhazanfarMir\\CompaniesHouse\\Tests\\": "tests/"
+            "Global4Communications\\LaravelCompaniesHouse\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "GhazanfarMir\\CompaniesHouse\\CompaniesHouseServiceProvider"
+                "Global4Communications\\LaravelCompaniesHouse\\CompaniesHouseServiceProvider"
             ],
             "aliases": {
-                "CompaniesHouse": "GhazanfarMir\\CompaniesHouse\\Facades\\CompaniesHouse"
+                "CompaniesHouse": "Global4Communications\\LaravelCompaniesHouse\\Facades\\CompaniesHouse"
             }
         }
     }
