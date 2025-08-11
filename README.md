@@ -28,7 +28,7 @@ Now register the Service Provider in config/app.php
     
     ...
     
-    GhazanfarMir\CompaniesHouse\CompaniesHouseServiceProvider::class,
+    Global4Communications\LaravelCompaniesHouse\CompaniesHouseServiceProvider::class,
 ],
 ```
 And also add the alias to the same file.
@@ -38,7 +38,7 @@ And also add the alias to the same file.
     
     ...
     
-    'CompaniesHouse' => GhazanfarMir\CompaniesHouse\Facades\CompaniesHouse::class,
+    'CompaniesHouse' => Global4Communications\LaravelCompaniesHouse\Facades\CompaniesHouse::class,
 ],
 ```
 Finally publish the config file.
@@ -49,7 +49,7 @@ php artisan vendor:publish
 ## How to use?
 
 ```php
-use GhazanfarMir\CompaniesHouse\Facades\CompaniesHouse;
+use Global4Communications\LaravelCompaniesHouse\Facades\CompaniesHouse;
 ```
 
 #### Search

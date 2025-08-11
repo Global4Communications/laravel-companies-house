@@ -1,9 +1,9 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Tests\Features;
+namespace Global4Communications\LaravelCompaniesHouse\Tests\Features;
 
-use GhazanfarMir\CompaniesHouse\CompaniesHouse;
-use GhazanfarMir\CompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\CompaniesHouse;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
 use PHPUnit\Framework\TestCase;
 
 abstract class CompaniesHouseBaseTest extends TestCase

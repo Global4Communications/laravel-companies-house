@@ -1,9 +1,9 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Resources;
+namespace Global4Communications\LaravelCompaniesHouse\Resources;
 
 use BadMethodCallException;
-use GhazanfarMir\CompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
 
 /**
  * Class Company.

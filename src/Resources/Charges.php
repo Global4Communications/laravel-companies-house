@@ -1,8 +1,8 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Resources;
+namespace Global4Communications\LaravelCompaniesHouse\Resources;
 
-use GhazanfarMir\CompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
 
 class Charges extends ResourcesBase
 {

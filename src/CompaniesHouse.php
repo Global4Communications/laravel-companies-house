@@ -1,12 +1,12 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse;
+namespace Global4Communications\LaravelCompaniesHouse;
 
-use GhazanfarMir\CompaniesHouse\Http\Client;
-use GhazanfarMir\CompaniesHouse\Resources\Charges;
-use GhazanfarMir\CompaniesHouse\Resources\Company;
-use GhazanfarMir\CompaniesHouse\Resources\FilingHistory;
-use GhazanfarMir\CompaniesHouse\Resources\Search;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\Resources\Charges;
+use Global4Communications\LaravelCompaniesHouse\Resources\Company;
+use Global4Communications\LaravelCompaniesHouse\Resources\FilingHistory;
+use Global4Communications\LaravelCompaniesHouse\Resources\Search;
 
 /**
  * Class CompaniesHouse.

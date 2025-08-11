@@ -1,6 +1,6 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Resources;
+namespace Global4Communications\LaravelCompaniesHouse\Resources;
 
 /**
  * Class Officers.

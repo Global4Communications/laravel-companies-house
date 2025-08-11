@@ -1,8 +1,8 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Tests\Features;
+namespace Global4Communications\LaravelCompaniesHouse\Tests\Features;
 
-use GhazanfarMir\CompaniesHouse\Exceptions\InvalidResourceException;
+use Global4Communications\LaravelCompaniesHouse\Exceptions\InvalidResourceException;
 
 class CompanyTest extends CompaniesHouseBaseTest
 {
@@ -91,7 +91,7 @@ class CompanyTest extends CompaniesHouseBaseTest
         $this->expectException(InvalidResourceException::class);
 
         if ($this->platform == 'travis') {
-            throw new \GhazanfarMir\CompaniesHouse\Exceptions\InvalidResourceException;
+            throw new \Global4Communications\LaravelCompaniesHouse\Exceptions\InvalidResourceException;
 
             return;
         }
@@ -107,7 +107,7 @@ class CompanyTest extends CompaniesHouseBaseTest
         $this->expectException(InvalidResourceException::class);
 
         if ($this->platform == 'travis') {
-            throw new \GhazanfarMir\CompaniesHouse\Exceptions\InvalidResourceException;
+            throw new \Global4Communications\LaravelCompaniesHouse\Exceptions\InvalidResourceException;
 
             return;
         }

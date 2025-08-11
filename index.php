@@ -1,7 +1,7 @@
 <?php
 
-use GhazanfarMir\CompaniesHouse\CompaniesHouse;
-use GhazanfarMir\CompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\CompaniesHouse;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
 
 include 'vendor/autoload.php';
 

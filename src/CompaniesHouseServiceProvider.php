@@ -1,8 +1,8 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse;
+namespace Global4Communications\LaravelCompaniesHouse;
 
-use GhazanfarMir\CompaniesHouse\Http\Client;
+use Global4Communications\LaravelCompaniesHouse\Http\Client;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 

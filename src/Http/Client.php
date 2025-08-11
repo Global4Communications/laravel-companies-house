@@ -1,8 +1,8 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Http;
+namespace Global4Communications\LaravelCompaniesHouse\Http;
 
-use GhazanfarMir\CompaniesHouse\Exceptions\InvalidResourceException;
+use Global4Communications\LaravelCompaniesHouse\Exceptions\InvalidResourceException;
 
 /**
  * Class Client.

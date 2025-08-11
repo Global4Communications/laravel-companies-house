@@ -1,6 +1,6 @@
 <?php
 
-namespace GhazanfarMir\CompaniesHouse\Tests\Features;
+namespace Global4Communications\LaravelCompaniesHouse\Tests\Features;
 
 class FilingHistoryTest extends CompaniesHouseBaseTest
 {
