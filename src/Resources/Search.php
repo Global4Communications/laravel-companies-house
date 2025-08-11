@@ -39,7 +39,7 @@ class Search extends ResourcesBase
      */
     public function companies($keyword, $items_per_page = 20, $start_index = 0)
     {
-        $uri = $this->buildResourceUrl('/search/companies/');
+        $uri = $this->buildResourceUrl('/search/companies');
 
         if (! empty($keyword)) {
             $params = [
@@ -64,7 +64,7 @@ class Search extends ResourcesBase
      */
     public function officers($keyword, $items_per_page = 20, $start_index = 0)
     {
-        $uri = $this->buildResourceUrl('/search/officers/');
+        $uri = $this->buildResourceUrl('/search/officers');
 
         if (! empty($keyword)) {
             $params = [
@@ -89,7 +89,7 @@ class Search extends ResourcesBase
      */
     public function disqualified_officers($keyword, $items_per_page = 20, $start_index = 0)
     {
-        $uri = '/search/disqualified-officers/';
+        $uri = '/search/disqualified-officers';
 
         if (! empty($keyword)) {
             $params = [
